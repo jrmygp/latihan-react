@@ -1,0 +1,62 @@
+{
+  "ticket_type": [
+    {
+      "id": 1,
+      "title": "Ticket A"
+    },
+    {
+      "id": 2,
+      "title": "Ticket B"
+    }
+  ],
+  "payment_history": [
+    {
+      "id": 1,
+      "userId": 1,
+      "ticketType": 1,
+      "ticketAmount": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "ticketType": 2,
+      "ticketAmount": 1
+    },
+    {
+      "userId": 1,
+      "ticketType": 2,
+      "ticketAmount": 1,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "ticketType": 1,
+      "ticketAmount": 1,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "ticketType": 2,
+      "ticketAmount": 1,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "ticketType": 1,
+      "ticketAmount": 1,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "ticketType": 2,
+      "ticketAmount": 1,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "ticketType": 2,
+      "ticketAmount": 1,
+      "id": 8
+    }
+  ]
+}
