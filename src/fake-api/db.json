@@ -1,62 +1,164 @@
 {
-  "ticket_type": [
+  "user": [
     {
       "id": 1,
-      "title": "Ticket A"
+      "user_uniqueid": 1,
+      "full_name": "Martin Joman",
+      "email": "martin@gmail.com",
+      "phone_number": "081212345678",
+      "refferal_code": "ABC123",
+      "points": 0,
+      "user_type": "user",
+      "password": "Password123!"
     },
     {
-      "id": 2,
-      "title": "Ticket B"
+      "full_name": "jeremy puglisi",
+      "email": "jeremy@email.com",
+      "phone_number": "123445",
+      "password": "password123",
+      "user_uniqueid": "jc_zQ",
+      "referral_code": "C1H9PJ5Qzr",
+      "points": 0,
+      "user_type": "user",
+      "id": 2
+    },
+    {
+      "full_name": "Mamat",
+      "email": "mamat@email.com",
+      "phone_number": "43212",
+      "password": "password123",
+      "user_uniqueid": "5xn6G",
+      "referral_code": "zeYghYZhN6",
+      "points": 0,
+      "user_type": "user",
+      "id": 3
     }
   ],
-  "payment_history": [
+  "ticketType": [
     {
       "id": 1,
-      "userId": 1,
-      "ticketType": 1,
-      "ticketAmount": 1
+      "ticket_uniqueid": 1,
+      "ticket_name": "Ticket A",
+      "ticket_image": [
+        ""
+      ],
+      "ticket_date": "07-07-2023",
+      "ticket_location": "Ancol",
+      "ticket_price": 20000
     },
     {
       "id": 2,
-      "userId": 1,
-      "ticketType": 2,
-      "ticketAmount": 1
+      "ticket_uniqueid": 2,
+      "ticket_name": "Ticket B",
+      "ticket_image": [
+        ""
+      ],
+      "ticket_date": "10-10-2023",
+      "ticket_location": "BSD",
+      "ticket_price": 50000
     },
     {
-      "userId": 1,
-      "ticketType": 2,
-      "ticketAmount": 1,
-      "id": 3
+      "id": 3,
+      "ticket_uniqueid": 3,
+      "ticket_name": "Ticket C",
+      "ticket_image": [
+        ""
+      ],
+      "ticket_date": "10-12-2023",
+      "ticket_location": "Jakarta",
+      "ticket_price": 50000
+    }
+  ],
+  "ticketOwn": [
+    {
+      "id": 1,
+      "user_uniqueid": 1,
+      "ticket_uniqueid": 1,
+      "ticket_own_amount": 1
     },
     {
-      "userId": 1,
-      "ticketType": 1,
-      "ticketAmount": 1,
-      "id": 4
+      "id": 2,
+      "user_uniqueid": 2,
+      "ticket_uniqueid": 1,
+      "ticket_own_amount": 1
     },
     {
-      "userId": 1,
-      "ticketType": 2,
-      "ticketAmount": 1,
-      "id": 5
+      "id": 3,
+      "user_uniqueid": 3,
+      "ticket_uniqueid": 2,
+      "ticket_own_amount": 1
     },
     {
-      "userId": 1,
-      "ticketType": 1,
-      "ticketAmount": 1,
-      "id": 6
+      "id": 4,
+      "user_uniqueid": 3,
+      "ticket_uniqueid": 1,
+      "ticket_own_amount": 1
+    }
+  ],
+  "ticketPurchaseHistory": [
+    {
+      "id": 1,
+      "user_uniqueid": 1,
+      "ticket_uniqueid": 1,
+      "ticket_purchase_amount": 1
     },
     {
-      "userId": 1,
-      "ticketType": 2,
-      "ticketAmount": 1,
-      "id": 7
+      "id": 2,
+      "user_uniqueid": 1,
+      "ticket_uniqueid": 2,
+      "ticket_purchase_amount": 2
     },
     {
-      "userId": 2,
-      "ticketType": 2,
-      "ticketAmount": 1,
-      "id": 8
+      "id": 3,
+      "user_uniqueid": 2,
+      "ticket_uniqueid": 3,
+      "ticket_purchase_amount": 1
+    },
+    {
+      "id": 4,
+      "user_uniqueid": 1,
+      "ticket_uniqueid": 1,
+      "ticket_purchase_amount": 1
+    }
+  ],
+  "merchandiseType": [
+    {
+      "id": 1,
+      "merchandise_uniqueid": 1,
+      "merchandise_name": "Botol A",
+      "merchandise_image": [
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "merchandise_uniqueid": 2,
+      "merchandise_name": "Botol B",
+      "merchandise_image": [
+        ""
+      ]
+    },
+    {
+      "id": 3,
+      "merchandise_uniqueid": 3,
+      "merchandise_name": "Botol C",
+      "merchandise_image": [
+        ""
+      ]
+    }
+  ],
+  "merchandisePurchaseHistory": [
+    {
+      "id": 1,
+      "user_uniqueid": 1,
+      "merchandise_uniqueid": 2,
+      "merchandise_purchase_amount": 1
+    },
+    {
+      "id": 2,
+      "user_uniqueid": 1,
+      "merchandise_uniqueid": 1,
+      "merchandise_purchase_amount": 1
     }
   ]
 }

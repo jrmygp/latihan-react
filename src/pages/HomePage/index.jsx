@@ -1,11 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 
 const HomePage = () => {
   const [tickets, setTickets] = useState([]);
   const [histories, setHistories] = useState([]);
   const [userHistory, setUserHistory] = useState([]);
+  const userSelector = useSelector((state) => state.auth);
+
+  console.log(userSelector);
 
   // Fetch tickets
   const fetchTickets = async () => {
@@ -56,9 +60,9 @@ const HomePage = () => {
   };
 
   useEffect(() => {
-    fetchTickets();
-    fetchHistories();
-    fetchUserTicketHistory();
+    // fetchTickets();
+    // fetchHistories();
+    // fetchUserTicketHistory();
   }, []);
 
   return (

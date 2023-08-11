@@ -7,7 +7,7 @@ const initialState = {
   full_name: "",
   email: "",
   phone_number: "",
-  refferal_code: "",
+  referral_code: "",
   points: 0,
 };
 
@@ -22,7 +22,7 @@ const authReducer = createSlice({
       state.full_name = action.payload.full_name;
       state.email = action.payload.email;
       state.phone_number = action.payload.phone_number;
-      state.refferal_code = action.payload.refferal_code;
+      state.referral_code = action.payload.referral_code;
       state.points = action.payload.points;
     },
     logout: () => {
